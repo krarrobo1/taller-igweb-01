@@ -5,6 +5,7 @@
 #site-label{
   text-align: center;
   color: #add8e6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .parrafo{
@@ -14,7 +15,7 @@
 }
 
 header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
 }
 
 ul {
