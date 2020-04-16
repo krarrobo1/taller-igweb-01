@@ -2,6 +2,17 @@
     background-color: whitesmoke;
 }
 
+#site-label{
+  text-align: center;
+  color: #add8e6;
+}
+
+.parrafo{
+  margin: 1em;
+  background-color: #add8e6;
+  padding: 1em;
+}
+
 header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
