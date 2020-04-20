@@ -8,55 +8,140 @@
     <link rel="stylesheet" href='./css/style.css'>
 </head>
 
-<body class="container">
+<body>
     <header>
-        <h1 id="site-label">My first web site</h1>
+        <h1 id="site-label">Control de versiones</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Portafolio</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li>
-            <a href="#">Inicio</a>
-            </li>
-            <li>
-                <a href="#">Portafolio</a>
-            </li>
-            <li>
-              <a href="#">Contacto</a>  
-            </li>
-        </ul>
-    </nav>
 
-    <div class="parrafo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. At lectus urna duis convallis convallis tellus id interdum velit. A condimentum vitae sapien
-            pellentesque habitant morbi tristique. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Elit
-            duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Volutpat diam ut venenatis tellus in metus
-            vulputate eu scelerisque. Ac orci phasellus egestas tellus rutrum. Vitae et leo duis ut diam quam nulla
-            porttitor massa. A arcu cursus vitae congue mauris rhoncus aenean vel elit. Eget sit amet tellus cras
-            adipiscing enim eu turpis egestas. Proin sed libero enim sed faucibus turpis in eu mi.</p>
-    
+
+    <article class="parrafo">
+        <h2>Importancia del control de versiones</h2>
+        <p>El control de versiones sin duda es una de las herramientas más útiles para los desarrolladores nos permite:</p>
+        <ul>
+            <li>Trabajo colaborativo con otros desarrolladores</li>
+            <li>Seguimiento de los cambios y evolución del proyecto</li>
+            <li>Revisión de código</li>
+        </ul>
+        <p>Los servicios que ofrecen alojamiento de codigo gratuito utilizando un sistema de control de versiones Git son los siguientes: </p>
+    </article>
+
+    <div class="container">
+        <div class="element element-1">
+            <h3>GitHub</h3>
+            <img src='assets/github.png' alt="">
+            <p>Permite</p>
+        </div>
+        <div class="element element-2">
+            <h3>GitLab</h3>
+            <img src='assets/gitlab.png' alt="">
+        </div>
+        <div class="element element-3">
+            <h3>BitBucket</h3>
+            <img src='assets/bitbucket.png' alt="">
+        </div>
     </div>
-    <div class="parrafo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. At lectus urna duis convallis convallis tellus id interdum velit. A condimentum vitae sapien
-            pellentesque habitant morbi tristique. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Elit
-            duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Volutpat diam ut venenatis tellus in metus
-            vulputate eu scelerisque. Ac orci phasellus egestas tellus rutrum. Vitae et leo duis ut diam quam nulla
-            porttitor massa. A arcu cursus vitae congue mauris rhoncus aenean vel elit. Eget sit amet tellus cras
-            adipiscing enim eu turpis egestas. Proin sed libero enim sed faucibus turpis in eu mi.</p>
-    
+
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <h5>GitHub</h5>
+                    </td>
+                    <td>
+                        <h5>GitLab</h5>
+                    </td>
+                    <td>
+                        <h5>BitBucket</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>GitHub es un servicio de alojamiento de código abierto. Esto proporciona repositorios gratuitos, pero para utilizar todas las funciones, el usuario podría tener que comprar el paquete premium.</p>
+                    </td>
+                    <td>
+                        <p>GitLab es una fuente abierta de servicios de alojamiento propio. Es gratis para cada comunidad de codificadores.</p>
+                    </td>
+                    <td>
+                        <p>Bitbucket no es un servicio de alojamiento de código abierto. Pero proporciona un servicio de repositorio gratuito para 5 usuarios. Para el gran equipo, el equipo profesional debe pagar cargos adicionales por usuario.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>GitHub proporciona una canalización de CI para compartir códigos.</p>
+                    </td>
+                    <td>
+                        <p>GitLab proporciona CI gratuito para facilitar el acceso a los usuarios.</p>
+                    </td>
+                    <td>
+                        <p>Esta plataforma no ofrece CI gratis a sus usuarios.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>GitHub proporciona sus propias API para el desarrollo de aplicaciones.</p>
+                    </td>
+                    <td>
+                        <p>GitLab también proporciona sus propias API para el desarrollo de aplicaciones.</p>
+                    </td>
+                    <td>
+                        <p>Bitbucket no es un servicio de alojamiento de código abierto. Pero proporciona un servicio de repositorio gratuito para 5 usuarios. Para el gran equipo, el equipo profesional debe pagar cargos adicionales por usuario.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Este servicio también solo es compatible con los proyectos desarrollados en plataformas Git.</p>
+                    </td>
+                    <td>
+                        <p>Los servicios, el servicio solo es compatible con los proyectos desarrollados en las plataformas Git.</p>
+                    </td>
+                    <td>
+                        <p>El usuario podría importar proyectos desde fuentes externas incluso desde repositorios de Git.</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>GitHub tiene un sistema activo de seguimiento de errores para mejorar la calidad de la codificación.</p>
+                    </td>
+                    <td>
+                        <p>GitLab también ofrece rastreadores de errores activos junto con la opción de edición de código basada en la web para mejorar la calidad de la codificación.</p>
+                    </td>
+                    <td>
+                        <p>Bitbucket utiliza la búsqueda semántica para analizar la sintaxis de codificación para aumentar la calidad de la codificación.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Esta plataforma admite las importaciones de Git, HG, SVN y TFS.</p>
+                    </td>
+                    <td>
+                        <p>Este servicio es compatible con Git, Google Code, Bitbucket y FogBugz.</p>
+                    </td>
+                    <td>
+                        <p>Es compatible con Git, Google Code, SourceForge, HG, CodePlex y SVN.</p>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
     </div>
-    <div class="parrafo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. At lectus urna duis convallis convallis tellus id interdum velit. A condimentum vitae sapien
-            pellentesque habitant morbi tristique. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Elit
-            duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Volutpat diam ut venenatis tellus in metus
-            vulputate eu scelerisque. Ac orci phasellus egestas tellus rutrum. Vitae et leo duis ut diam quam nulla
-            porttitor massa. A arcu cursus vitae congue mauris rhoncus aenean vel elit. Eget sit amet tellus cras
-            adipiscing enim eu turpis egestas. Proin sed libero enim sed faucibus turpis in eu mi.</p>
-    
-    </div>
+    <footer>@Krarrobo1 - 2020</footer>
+
 </body>
 
 </html>
